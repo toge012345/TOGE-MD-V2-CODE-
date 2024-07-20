@@ -138,12 +138,12 @@ async function startnigg(phone) {
 
           const output = await pastebin.createPasteFromFile(
             `${sessionFolder}/creds.json`,
-            'Guru Bhai',
+            'TOGE BOT',
             null,
             1,
             'N'
           )
-          const sessi = 'GuruBot~' + output.split('https://pastebin.com/')[1]
+          const sessi = 'TOGE-MD~' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
@@ -151,7 +151,7 @@ async function startnigg(phone) {
           await negga.sendMessage(
             negga.user.id,
             {
-              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using GURU-BOT\n\n join support group:- https://chat.whatsapp.com/JY4R2D22pbLIKBMQWyBaLg \n',
+              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using TOGE-MD-V2\n\n join support group:- https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo \n',
             },
             { quoted: guru }
           )
