@@ -143,7 +143,7 @@ async function startnigg(phone) {
             1,
             'N'
           )
-          const sessi = 'TOGE-MD&' + output.split('https://pastebin.com/raw/${sessdata}')[1]
+          const sessi = 'TOGE-MD&' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
