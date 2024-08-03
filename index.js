@@ -143,7 +143,7 @@ async function startnigg(phone) {
             1,
             'N'
           )
-          const sessi = 'Imalka-MD&' + output.split('https://pastebin.com/')[1]
+          const sessi = 'TOGE-MD&' + output.split('https://pastebin.com/raw/${sessdata}')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
@@ -153,7 +153,7 @@ async function startnigg(phone) {
             {
               text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using TOGE-MD-V2\n\n join support group:- https://chat.whatsapp.com/JQ4s2pJuBReE7YL9wKJPHo \n',
             },
-            { quoted: guru }
+            { quoted: toge }
           )
 
           console.log('Connected to WhatsApp Servers')
